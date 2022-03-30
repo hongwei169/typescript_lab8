@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>display</ion-title>
+    <ion-back-button></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor = "let movie of movies">
+    <img src="{{movie.Poster}}" />
+    <ion-card-header>
+      <ion-card-title>{{movie.Year}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      {{movie.Title}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
