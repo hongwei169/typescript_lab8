@@ -1,3 +1,1 @@
 # typescript_lab8
-
-..
