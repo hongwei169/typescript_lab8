@@ -1,0 +1,3 @@
+# typescript_lab8
+
+..
